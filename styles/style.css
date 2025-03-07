@@ -51,7 +51,6 @@ header, body, nav {
     z-index: 1;
 }
 
-
 .logo {
     font-size: 30px;
     font-weight: 700;
@@ -109,7 +108,6 @@ header, body, nav {
     margin-top: 30px;
     background-color: white;
     box-shadow: 1px 1px 0px;
-
 }
 
 .info__box button:active {
@@ -645,7 +643,6 @@ input[type="submit"] {
     text-align: justify;
 }
 
-
 .close__window__button {
     width: 50px;
     height: 50px;
@@ -653,4 +650,16 @@ input[type="submit"] {
     position: absolute;
     right: 0px;
     top: 0px;
+}
+
+
+.right__content__block {
+    padding: 20px
+}
+.right__content__block [type="radio"]{
+    display: none;
+}
+
+.right__content__block [type="submit"] {
+    width: 100%;
 }
